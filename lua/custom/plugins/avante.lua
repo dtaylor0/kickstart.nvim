@@ -5,6 +5,11 @@ return {
   version = false, -- set this if you want to always pull the latest change
   opts = {
     -- add any opts here
+    provider = 'gemini',
+    auto_suggestions_provider = 'gemini',
+    -- gemini = {
+    --   model = 'gemini-2.0.flash',
+    -- },
   },
   -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
   build = 'make BUILD_FROM_SOURCE=true',
