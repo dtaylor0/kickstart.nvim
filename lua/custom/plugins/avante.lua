@@ -5,8 +5,8 @@ return {
   version = false, -- set this if you want to always pull the latest change
   opts = {
     -- add any opts here
-    provider = 'gemini',
-    auto_suggestions_provider = 'gemini',
+    -- provider = 'gemini',
+    -- auto_suggestions_provider = 'gemini',
     -- gemini = {
     --   model = 'gemini-2.0.flash',
     -- },

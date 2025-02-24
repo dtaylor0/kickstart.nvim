@@ -12,7 +12,6 @@ return {
           italic = false,
         },
       }
-      vim.cmd.colorscheme 'rose-pine'
     end,
   },
   {
@@ -23,6 +22,9 @@ return {
     -- change the command in the config to whatever the name of that colorscheme is.
     --
     -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
-    'folke/tokyonight.nvim',
+    'catppuccin/nvim',
+    config = function()
+      vim.cmd.colorscheme 'catppuccin-macchiato'
+    end,
   },
 }
