@@ -879,9 +879,10 @@ require('lazy').setup({
     config = function()
       ---@diagnostic disable-next-line: missing-fields
       require('rose-pine').setup {
-        no_bold = true,
-        no_italic = true,
-        no_underline = true,
+        styles = {
+          bold = false,
+          italic = false,
+        },
       }
 
       -- Load the colorscheme here.
